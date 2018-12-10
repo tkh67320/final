@@ -1,0 +1,51 @@
+.nav {
+    list-style-type: none;
+    overflow: auto;
+    width: 100%;
+    border: 1px #f5eeee8a;
+    background-color: #f5eeee8a;
+}
+
+.nav li a {
+    text-decoration: none;
+    background-color: inherit;
+    float: left;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: #000606;
+}
+
+.nav li a:hover{
+    background-color: #3059ce9e;
+}
+
+.nav li a.active {
+    background-color: #ccc;
+}
+
+#p01 {
+    font-size: 25px;
+    background-color: #d5f4e6;
+    opacity: 0.7;
+}
+
+#b01 {
+    background: white url("images/fishpj04.gif") no-repeat;
+    text-align: center;
+}
+
+#b02 {
+    text-align: center;
+}
+
+#u01 {
+    list-style: none;
+}
+
+body {
+    background-color: #7fccd4;
+    font-family: "Courier New", Courier, monospace;
+}
